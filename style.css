@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(49, 61, 71);
+}
+
+.bottom{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    bottom: 10rem;
+    font-size: 12vmax;
+    color: aliceblue;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 1rem 1rem 0 1rem;
+}
+
+h1 p{
+    margin: 0 3rem;
+    font-size: 8vmax;
+}
+
+#text{
+    padding:0rem 1rem;
+    height: 4rem;
+    width: 22rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    background: rgba(46, 47, 47, 0.541);
+    color: aliceblue;
+    backdrop-filter: blur(10px);
+}
+
+#text:focus{
+    border-bottom: 3px solid rgb(0, 149, 255);;
+}
+
+button{
+    margin: 2rem;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(0, 149, 255);
+    border-color: rgb(0, 149, 255);
+}
