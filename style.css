@@ -58,7 +58,7 @@ h1 p{
 }
 
 #text:focus{
-    border-bottom: 3px solid rgb(0, 149, 255);;
+    border-bottom: 3px solid rgb(0, 149, 255);
 }
 
 button{
